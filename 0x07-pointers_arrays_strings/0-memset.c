@@ -1,11 +1,12 @@
 #include "main.h"
 
 /*
-* _memset : function that take a string and set c in string 
-*@b : is pointer to string
-*@c : caracter
-*@len : is size of bit set in string
-*return : return string 
+* _memset - function that take a string and set c in string 
+* @b: is pointer to string
+* @c: caracter
+* @len: is size of bit set in string
+*
+* return: return string 
 */
 
 void *_memset(void *b, int c, size_t len)
