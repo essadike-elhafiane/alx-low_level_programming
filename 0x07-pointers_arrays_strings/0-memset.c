@@ -2,12 +2,9 @@
 
 /*
 * _memset : function that take a string and set c in string 
-* 
-*
 *@b : is pointer to string
 *@c : caracter
 *@len : is size of bit set in string
-*
 *return : return string 
 */
 
