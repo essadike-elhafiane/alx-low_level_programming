@@ -1,22 +1,19 @@
 #include "main.h"
-
 /**
- * _memset - function that take a string and set c in string
- * @b: is pointer to string
- * @c: caracter
- * @len: is size of bit set in string
+ * _memset - fill a block of memory with a specific value
+ * @s: starting address of memory to be filled
+ * @b: the desired value
+ * @n: number of bytes to be changed
  *
- * return: string m
+ * Return: changed array with new value for n bytes
  */
-
-void *_memset(void *b, int c, size_t len)
+char *_memset(char *s, char b, unsigned int n)
 {
-	size_t			i;
-	unsigned char	*m;
-
-	i = 0;
-	m = (unsigned char *)b;
-	while (i < len)
-		m[i++] = (unsigned char)c;
-	return (m);
+	int i = 0;
+	for (; n > 0; i++)
+	{
+	s[i] = b;
+	n--;
+	}
+	return (s);
 }
