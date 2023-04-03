@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
 * memset - function that take a string and set c in string 
 * @b: is pointer to string
 * @c: caracter
