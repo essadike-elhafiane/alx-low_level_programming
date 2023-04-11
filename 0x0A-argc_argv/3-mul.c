@@ -7,6 +7,7 @@
  *
  * Return: the int converted from the string
  */
+
 static int	ft_isspace(int c)
 {
 	if (c == ' ' || c == '\t' || c == '\r' || c == '\v'
@@ -16,7 +17,7 @@ static int	ft_isspace(int c)
 		return (0);
 }
 
-int	ft_atoi(const char *str)
+int	_atoi(char *str)
 {
 	int	i;
 	int	a;
